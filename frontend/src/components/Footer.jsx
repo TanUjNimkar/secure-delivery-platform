@@ -6,17 +6,36 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className="footer-socials">
-          <a href="https://github.com/TanUjNimkar" target="_blank" rel="noreferrer" className="social-icon">
+          <a
+            href="https://github.com/TanUjNimkar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon"
+          >
             <FaGithub />
           </a>
-          <a href="#" target="_blank" rel="noreferrer" className="social-icon">
+
+          <a
+            href="https://www.linkedin.com/in/tanuj-nimkar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon"
+          >
             <FaLinkedinIn />
           </a>
-          <a href="mailto:tanujnimkar.cloud@gmail.com" className="social-icon">
+
+          <a
+            href="mailto:tanujnimkar.cloud@gmail.com"
+            className="social-icon"
+          >
             <FaEnvelope />
           </a>
         </div>
-        <p>&copy; {new Date().getFullYear()} Tanuj Nimkar. Built with React, Flask, Docker & Nginx.</p>
+
+        <p>
+          &copy; {new Date().getFullYear()} Tanuj Nimkar. Built with React,
+          Flask, Docker & Nginx.
+        </p>
       </div>
     </footer>
   );
